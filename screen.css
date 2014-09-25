@@ -1,0 +1,74 @@
+/* CSS for Webpage */
+
+/* Prevent text-size-adjustments */
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust:100%;
+  text-size-adjust: 100%;
+}
+
+header, navigation, content, footer {
+  display: block;
+  font-size: inherit;
+}
+
+Body {
+  font-family: "Times New Romans", serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: green;
+  background-color: #CCC;
+  background-image: url(images/profile2.jpg);
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  color: green;
+  word-spacing: 2px;
+  font-style: italic;
+  text-decoration: underline; blink;
+}
+
+div.content {
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 28px;
+  line-height: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+P {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  text-indent: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+ul {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.content > img {
+   
+}
+
+.footer {
+  text-align: center;
+}
+  
+
+  
+
+
+
+
+   
