@@ -1,0 +1,136 @@
+/* CSS for Webpage */
+/* Modular Scale 20px=1em @ 1:1.5 */
+
+/* Prevent text-size-adjustments */
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust:100%;
+  text-size-adjust: 100%;
+  background-color: transparent;
+  background-image: url(Background/16.bmp);
+  background-attachment: fixed;
+}
+
+
+header, navigation, content, footer {
+  display: block;
+  font-size: inherit;
+}
+
+Body {
+  font-family: "Abyssinica SIL", serif;
+  font-size: 1em; /* 20px */
+  line-height: 1em; /* 20px */
+  color: green;
+}
+
+h1 {
+  font-family: "URW ChanceryL", serif;
+  font-size: 3em; /* 60px */
+  text-align: center;
+  color: purple;
+  word-spacing: .15em; /* 3px */
+  font-style: italic;
+  text-decoration: blink;
+  padding-top: .75em; /* 15px */
+  padding-bottom: .5em; /* 10px */
+}
+
+div#content {
+  padding-bottom: 0em; /* 0px */
+}
+
+h2 {
+  font-family: "URW ChanceryL", serif;
+  font-size: 2em; /* 40px */
+  line-height: 1em; /* 20px */
+  color: purple;
+  padding-top: .8em; /* 16px */
+  padding-bottom: .6em; /* 12px */
+  padding-left: 1em; /* 20px */
+}
+h2+img {
+  margin-top: 2.5em; /* 50px */
+  margin-right: 2em; /* 40px */
+  margin-left: 2em; /* 40px */
+  margin-bottom: .25em /* 5px */
+}
+
+ul.Countries img {
+  margin-top: 1em; /* 20px */
+  margin-right: .75em; /* 15px */
+  margin-left: .75em; /* 15px */
+}
+
+P {
+  font-size: 1.2em; /* 24px */
+  line-height: 2em; /* 40px */
+  text-align: justify;
+  text-indent: 2.25em; /* 45px */
+  padding-top: .5em; /* 10px */
+  padding-bottom: 1em; /* 20px */
+  padding-left: 1.5em; /* 30px */
+  padding-right: 1.5em; /* 30px */
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+
+ul.Countries {
+  font-family: "Purisa", serif;
+  font-size: 1.5em; /* 30px */
+  line-height: 1.8em; /* 36px */
+  padding-left: 2em; /* 40px */
+}
+
+ul.Countries li {
+   list-style-type: disc;
+   list-style-position: inside;
+}
+
+ul.Countries a {
+  font-family: "Abyssinica SIL", serif;
+  font-size: .75em; /* 15px */
+  padding-left: 2em; /* 40px */
+  padding-bottom: 2em; /* 40px */
+  text-decoration: underline;
+}
+
+ul.Online-Social-Media {
+  font-size: 1.5em; /* 30px */
+  line-height: 2em; /* 40px */
+  padding-left: 3em; /* 60px */
+  padding-bottom: 3em; /* 60px */
+}
+
+ul.Online-Social-Media {
+  list-style-type: circle;
+}
+
+
+div#footer {
+  text-align: center;
+  color: purple;
+  background-color: gray;
+  padding-bottom: .5em; /* 10px */
+}
+  
+
+  
+
+
+
+
+   
