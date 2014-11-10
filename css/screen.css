@@ -8,15 +8,9 @@ html {
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust:100%;
   text-size-adjust: 100%;
-  background-image: url("../Background/4.jpg");
+  background-image: url("../Background/.jpg");
   background-attachment: fixed;
-  background-color: transparent;
-}2
-
-
-header, content, img, footer {
-  display: block;
-  font-size: inherit;
+  background-color: #F6CEF5;
 }
 
 body {
@@ -26,7 +20,18 @@ body {
   color: green;
 }
 
-h1 {
+div#header {
+  display: block;
+  background-image: url("../Background/6.jpg");
+  background-repeat: ;
+}
+
+div#header ul.accessibility {
+  position: absolute;
+  left: -200em;
+}
+
+div#header h1 {
   font-family: "URW ChanceryL", serif;
   font-size: 3em; /* 60px */
   text-align: center;
@@ -34,12 +39,58 @@ h1 {
   word-spacing: .15em; /* 3px */
   font-style: italic;
   text-decoration: blink;
-  padding-top: .75em; /* 15px */
+  padding-top: 1.5em; 
   padding-bottom: .5em; /* 10px */
 }
 
+div#header h1 a {
+
+}
+
+div#header h1 + p.tagline {
+  font-family:;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+ul#navigation {
+  display: block;
+  width: 15em;
+  float: left;
+  margin-top: 1.5em;
+  margin-left: 2em;
+  overflow: hidden;
+}
+
+ul#navigation li {
+  display: block;
+  padding: 5px;
+}
+
+ul#navigation li a {
+  display: block;
+  font-family:;
+  font-size: 1.25em;
+  color: purple;
+  height: 1.5em;
+  padding-top: .75em;
+}
+
+ul#navigation li a:hover {
+  background-color: #CECEF6;
+  color: red;
+}
+
+img {
+  display: block;
+  float: left;
+}
+
 div#content {
-  padding-bottom: 0em; /* 0px */
+  margin-left: 17em;
+  margin-right: 17em;
+  width: 60em;
+  position: relative;
 }
 
 h2 {
@@ -80,13 +131,12 @@ a {
 }
 
 a:visited {
-  color: blue;
+  color: purple;
 }
 
 a:hover {
   color: red;
 }
-
 
 ul.Countries {
   font-family: "Purisa", serif;
@@ -120,11 +170,17 @@ ul.Online-Social-Media {
 }
 
 
-div#footer {
-  text-align: center;
+#footer {
+  display: block;
   color: purple;
-  background-color: gray;
+  background-image: url("../Background/7.jpg");
+  height: 7em;
   padding-bottom: .5em; /* 10px */
+}
+
+#footer p {
+  text-align: center;
+  padding-top: 2em;
 }
   
 
