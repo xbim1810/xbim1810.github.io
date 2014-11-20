@@ -1,5 +1,5 @@
 /* CSS for Webpage */
-/* Modular Scale 20px=1em @ 1:1.5 */
+/* Modular Scale 16px=1em @ 1:1.5 */
 
 /* Prevent text-size-adjustments */
 
@@ -10,9 +10,9 @@ html {
 }
 
 body {
-  font-family: "Abyssinica SIL", "Times New Roman", serif;
-  font-size: 1em; /* 20px */
-  line-height: 1em; /* 20px */
+  font-family: "Abyssinica SIL", Georgia, Baskerville, "Times New Roman", serif;
+  font-size: 1em; 
+  line-height: 1em; 
   color: green;
 }
 
@@ -27,15 +27,15 @@ div#header ul.accessibility {
 }
 
 div#header h1 {
-  font-family: "URW ChanceryL", "Times New Roman", serif;
-  font-size: 3em; /* 60px */
+  font-family: "URW ChanceryL", Georgia, Baskerville, "Times New Roman", serif;
+  font-size: 3em; 
   text-align: center;
   color: purple;
-  word-spacing: .15em; /* 3px */
+  word-spacing: .15em; 
   font-style: italic;
   text-decoration: blink;
   padding-top: 1.5em; 
-  padding-bottom: .5em; /* 10px */
+  padding-bottom: .5em; 
 }
 
 div#header h1 + p.tagline {
@@ -59,7 +59,7 @@ ul#navigation li {
 
 ul#navigation li a {
   display: block;
-  font-family: "Abyssinica SIL", "Times New Roman", serif;
+  font-family: "Helvetica", "Helvetica nene", Arial, sans-serif;
   font-size: 1.25em;
   color: purple;
   height: 1.5em;
@@ -74,36 +74,36 @@ ul#navigation li a:hover {
 div#content {
   margin-left: 20%;
   margin-right: 15%;
-  width: 100%;
+  width: 75%;
   position: relative;
 }
 
 h2 {
-  font-family: "URW ChanceryL", serif;
-  font-size: 2em; /* 40px */
-  line-height: 1em; /* 20px */
+  font-family: "URW ChanceryL", Georgia, Baskerville, serif;
+  font-size: 2em; 
+  line-height: 1em; 
   color: purple;
-  padding-top: .8em; /* 16px */
-  padding-bottom: .6em; /* 12px */
+  padding-top: .8em; 
+  padding-bottom: .6em; 
 }
 
 h2+img {
   float: left;
-  margin-top: 2.5em; /* 50px */
-  margin-right: 2em; /* 40px */
-  margin-left: 2em; /* 40px */
-  margin-bottom: .25em /* 5px */
+  margin-top: 2.5em; 
+  margin-right: 2em; 
+  margin-left: 2em; 
+  margin-bottom: .25em 
 }
 
 P {
-  font-size: 1.2em; /* 24px */
-  line-height: 2em; /* 40px */
+  font-size: 1.2em; 
+  line-height: 2em; 
   text-align: justify;
-  text-indent: 2.25em; /* 45px */
-  padding-top: .5em; /* 10px */
-  padding-bottom: 1em; /* 20px */
-  padding-left: 1.5em; /* 30px */
-  padding-right: 1.5em; /* 30px */
+  text-indent: 2.25em; 
+  padding-top: .5em; 
+  padding-bottom: 1em; 
+  padding-left: 1.5em; 
+  padding-right: 1.5em; 
 }
 
 a {
@@ -139,7 +139,7 @@ div#home section p {
 }
 
 h3 {
-  font-family: "Abyssinica SIL", "Times New Roman", serif;
+  font-family: "Helvetica", "Helvetica nene", Arial, sans-serif;
   font-size: 1.5em;
   line-height: 1em;
   padding-top: .5em;
@@ -148,7 +148,7 @@ h3 {
 }
 
 div.professions p {
-  font-family: "Abyssinica SIL", "Times New Roman", serif;
+  font-family: "Abyssinica SIL", Georgia, Baskerville, "Times New Roman", serif;
   font-size: 1.1em;
   line-height: 1.5em;
   margin-left: -2.5em;
@@ -160,7 +160,7 @@ strong {
 }
 
 ul.duties li, ul.skills li, ul.expertise li, ul.activities li {
-  font-family: "Abyssinica SIL", "Times New Roman", serif;
+  font-family: "Abyssinica SIL", Georgia, Baskerville, "Times New Roman", serif;
   font-size: 1em;
   line-height: 2em;
   margin-left: 3em;
@@ -178,7 +178,7 @@ div.resume img {
 }
 
 div.resume p {
-  font-family: "Abyssinica SIL", "Times New Roman", serif;
+  font-family: "Helvetica", "Helvetica nene", Arial, sans-serif;
   padding-bottom: 2em;
   padding-top: 4em;
   padding-left: 0em;
@@ -190,7 +190,7 @@ img.portfolio {
 }
 
 div.portfolio h3 {
-  font-family: "Abyssinica SIL", "Times New Roman", serif;
+  font-family: "Abyssinica SIL", Georgia, Baskerville, "Times New Roman", serif;
   font-size: 1.2em;
   line-height: 1em;
   padding-top: .5em;
@@ -203,10 +203,10 @@ ul.Countries {
 }
 
 ul.Countries li {
-  font-family: "Purisa", serif;
-  font-size: 1.5em; /* 30px */
-  line-height: 1em; /* 36px */
-  padding-left: .5em; /* 40px */
+  font-family: "Purisa", Georgia, Baskerville, serif;
+  font-size: 1.5em; 
+  line-height: 1em; 
+  padding-left: .5em; 
   margin-right: .5em;
   list-style-type: disc;
   list-style-position: inside;
@@ -219,21 +219,21 @@ ul.Countries li ul li {
 
 ul.Countries li ul li img {
   float: left;
-  margin-top: 1em; /* 20px */
-  margin-right: .75em; /* 15px */
-  margin-left: .75em; /* 15px */
+  margin-top: 1em; 
+  margin-right: .75em; 
+  margin-left: .75em; 
 }
 
 ul.Countries li ul li p a {
-  font-family: "Abyssinica SIL", "Times New Roman", serif;
-  font-size: .5em; /* 15px */
+  font-family: "Abyssinica SIL", Georgia, Baskerville, "Times New Roman", serif;
+  font-size: .5em; 
   text-decoration: underline;
   display: block;
   margin-left: -6em;
 }
 
 ol.favorite li {
-  font-family: "Abyssinica SIL", "Times New Roman", serif;
+  font-family: "Abyssinica SIL", Georgia, Baskerville, "Times New Roman", serif;
   font-size: 1.5em;
   padding-left: 1.5em;
   padding-top: .5em;
@@ -250,7 +250,7 @@ ul.favorite-books li, ul.favorite-melodies li, ul.favorite-movies li {
 }
 
 ul.favorite-books li a, ul.favorite-melodies li a, ul.favorite-movies li a {
-  font-family: "Abyssinica SIL", "Times New Roman", serif;
+  font-family: "Abyssinica SIL", Georgia, Baskerville, "Times New Roman", serif;
   font-size: .6em;
   line-height: 1em;
   padding-top: .5em;
@@ -294,10 +294,10 @@ ul.contact img, ul.contact a {
 }
 
 ul.Online-Social-Media {
-  font-size: 1.5em; /* 30px */
-  line-height: 2em; /* 40px */
-  padding-left: 3em; /* 60px */
-  padding-bottom: 3em; /* 60px */
+  font-size: 1.5em; 
+  line-height: 2em; 
+  padding-left: 3em; 
+  padding-bottom: 3em; 
 }
 
 ul.Online-Social-Media {
@@ -311,12 +311,12 @@ ul.Online-Social-Media {
   background-image: url("../Background/7.jpg");
   height: 10em;
   width: 100%;
-  padding-bottom: .5em; /* 10px */
+  padding-bottom: .5em; 
 }
 
 #footer p {
   text-align: center;
-  padding-top: 2em;
+  padding-top: 3em;
 }
   
 
@@ -348,8 +348,8 @@ ul.Online-Social-Media {
   height: 10%;
   }
   ul.Countries img {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     text-align: center;
   }
   ul.contact img {
@@ -364,7 +364,7 @@ ul.Online-Social-Media {
     width: 40%;
   }
   #content {
-    width: 100%;
+    width: 80%;
   }
   div#home section li img {
   float: none;
@@ -400,7 +400,7 @@ ul.Online-Social-Media {
     width: 30%;
   }
   #content {
-    width: 100%;
+    width: 75%;
   }
   div#home section li img {
   float: left;
@@ -419,8 +419,8 @@ ul.Online-Social-Media {
   height: 5%;
   }
   ul.Countries img {
-    width: 25%;
-    height: 25%;
+    width: 40%;
+    height: 40%;
   }
   ul.contact img {
   width: 5%;
@@ -434,7 +434,7 @@ ul.Online-Social-Media {
     width: 20%;
   }
   #content {
-    width: 100%;
+    width: 75%;
     max-width: 150em;
   }
   div#home section li img {
