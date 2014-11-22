@@ -4,15 +4,15 @@
 /* Prevent text-size-adjustments */
 
 html {
-  background-image: url("../Background/.jpg");
+  /* background-image: url("../Background/.jpg"); */
   background-attachment: fixed;
   background-color: #F6CEF5;
 }
 
 body {
   font-family: "Abyssinica SIL", Georgia, Baskerville, "Times New Roman", serif;
-  font-size: 1em; 
-  line-height: 1em; 
+  font-size: 1em;
+  line-height: 1em;
   color: green;
 }
 
@@ -28,14 +28,14 @@ div#header ul.accessibility {
 
 div#header h1 {
   font-family: "URW ChanceryL", Georgia, Baskerville, "Times New Roman", serif;
-  font-size: 3em; 
+  font-size: 3em;
   text-align: center;
   color: purple;
-  word-spacing: .15em; 
+  word-spacing: .15em;
   font-style: italic;
   text-decoration: blink;
-  padding-top: 1.5em; 
-  padding-bottom: .5em; 
+  padding-top: 1.5em;
+  padding-bottom: .5em;
 }
 
 div#header h1 + p.tagline {
@@ -80,30 +80,30 @@ div#content {
 
 h2 {
   font-family: "URW ChanceryL", Georgia, Baskerville, serif;
-  font-size: 2em; 
-  line-height: 1em; 
+  font-size: 2em;
+  line-height: 1em;
   color: purple;
-  padding-top: .8em; 
-  padding-bottom: .6em; 
+  padding-top: .8em;
+  padding-bottom: .6em;
 }
 
 h2+img {
   float: left;
-  margin-top: 2.5em; 
-  margin-right: 2em; 
-  margin-left: 2em; 
-  margin-bottom: .25em 
+  margin-top: 2.5em;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-bottom: .25em
 }
 
 P {
-  font-size: 1.2em; 
-  line-height: 2em; 
+  font-size: 1.2em;
+  line-height: 2em;
   text-align: justify;
-  text-indent: 2.25em; 
-  padding-top: .5em; 
-  padding-bottom: 1em; 
-  padding-left: 1.5em; 
-  padding-right: 1.5em; 
+  text-indent: 2.25em;
+  padding-top: .5em;
+  padding-bottom: 1em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 a {
@@ -156,7 +156,7 @@ div.professions p {
 
 strong {
   font-weight: bold;
-  line-height: 1.5em; 
+  line-height: 1.5em;
 }
 
 ul.duties li, ul.skills li, ul.expertise li, ul.activities li {
@@ -197,42 +197,55 @@ div.portfolio h3 {
   padding-bottom: .5em;
   padding-left: 2em;
 }
-
-ul.Countries {
+                                       /* Start big block-o-changes to "travel" by MJF */
+ul.countries {
   padding-top: 1em;
-}
-
-ul.Countries li {
-  font-family: "Purisa", Georgia, Baskerville, serif;
-  font-size: 1.5em; 
-  line-height: 1em; 
-  padding-left: .5em; 
-  margin-right: .5em;
   list-style-type: disc;
   list-style-position: inside;
 }
-
-ul.Countries li ul li {
-  float: none;
-  list-style-type: none;
+                                  /* Apply font-size to <h3> instead of to <li>, since */
+                                  /* <li> is a container-block, and we don't want to   */
+                                  /* cascade the font-size change to child elements.   */
+.countries h3 {
+  font-family: "Purisa", Georgia, Baskerville, serif;
+  font-size:    1.5em;
+  line-height:  1.0em;
+  padding-left: 0.5em;
+  margin-right: 0.5em;
 }
 
-ul.Countries li ul li img {
-  float: left;
-  margin-top: 1em; 
-  margin-right: .75em; 
-  margin-left: .75em; 
+                              /* background-color: #F6CEF5 - triads: #F5F6CE - #CEF6CF */
+.countries img {
+  display: inline;
+  width:   30%;
+  margin:  0.250% 0.625%;
+  border:  2px solid #F6CEF5;
 }
 
-ul.Countries li ul li p a {
+.countries a:hover img {               /* The scaled-images are links to the originals */
+  border:  2px solid #CEF6CF;          /* point that out with “:hover” selector        */
+}
+
+.countries p {
   font-family: "Abyssinica SIL", Georgia, Baskerville, "Times New Roman", serif;
-  font-size: .5em; 
-  text-decoration: underline;
-  display: block;
-  margin-left: -6em;
+  font-size: 1.2em;
+  display: inline-block;
+  width:   94.325%;                              /* “Mostly” span the containing block */
+  margin:  0.250% 0.625%;                                             /* Matches <img> */
+  padding: 0 2px;
+  line-height: auto;
+  text-indent: 0;
+  text-align: right;
 }
 
-ol.favorite li {
+.countries p a {
+  text-decoration: underline;
+}
+
+.countries p a:hover{}
+                                         /* End big block-o-changes to "travel" by MJF */
+
+.favorite li {
   font-family: "Abyssinica SIL", Georgia, Baskerville, "Times New Roman", serif;
   font-size: 1.5em;
   padding-left: 1.5em;
@@ -242,14 +255,14 @@ ol.favorite li {
   list-style-position: inside;
 }
 
-ul.favorite-books li, ul.favorite-melodies li, ul.favorite-movies li {
+.favorite ul li {
   list-style-type: disc;
   list-style-position: inside;
   padding-top: 1em;
   padding-bottom: 1em;
 }
 
-ul.favorite-books li a, ul.favorite-melodies li a, ul.favorite-movies li a {
+.favorite li a {
   font-family: "Abyssinica SIL", Georgia, Baskerville, "Times New Roman", serif;
   font-size: .6em;
   line-height: 1em;
@@ -257,7 +270,7 @@ ul.favorite-books li a, ul.favorite-melodies li a, ul.favorite-movies li a {
   padding-bottom: .5em;
 }
 
-ul.favorite-books li ul li, ul.favorite-melodies li ul li, ul.favorite-movies li ul li {
+.favorite ul ul li {
   list-style-type: none;
   padding-top: .5em;
   padding-bottom: 0em;
@@ -266,7 +279,7 @@ ul.favorite-books li ul li, ul.favorite-melodies li ul li, ul.favorite-movies li
   display: inline-block;
 }
 
-ul.favorite-books li ul li img, ul.favorite-melodies li ul li img, ul.favorite-movies li ul li img {
+.favorite img {
   float: none;
   list-style-type: none;
 }
@@ -294,10 +307,10 @@ ul.contact img, ul.contact a {
 }
 
 ul.Online-Social-Media {
-  font-size: 1.5em; 
-  line-height: 2em; 
-  padding-left: 3em; 
-  padding-bottom: 3em; 
+  font-size: 1.5em;
+  line-height: 2em;
+  padding-left: 3em;
+  padding-bottom: 3em;
 }
 
 ul.Online-Social-Media {
@@ -311,14 +324,14 @@ ul.Online-Social-Media {
   background-image: url("../Background/7.jpg");
   height: 10em;
   width: 100%;
-  padding-bottom: .5em; 
+  padding-bottom: .5em;
 }
 
 #footer p {
   text-align: center;
   padding-top: 3em;
 }
-  
+
 
 /*  Media Query */
 
@@ -347,10 +360,8 @@ ul.Online-Social-Media {
   width: 10%;
   height: 10%;
   }
-  ul.Countries img {
-    width: 90%;
-    height: 90%;
-    text-align: center;
+  ul.countries {          /* Keeps “ul#navigation” element from pushing <img> elements */
+    clear: left;          /* out of alignment; gets disabled below @ 48em screen-width */
   }
   ul.contact img {
   width: 10%;
@@ -361,7 +372,7 @@ ul.Online-Social-Media {
 @media screen and (min-width: 28em) {
 
   ul#navigation {
-    width: 40%;
+    width: 7.5em;  /* This was pushing things to the right at “40% / 30% / 20%” widths */
   }
   #content {
     width: 80%;
@@ -383,11 +394,6 @@ ul.Online-Social-Media {
   width: 7%;
   height: 7%;
   }
-  ul.Countries img {
-    width: 60%;
-    height: 60%;
-    text-align: center;
-  }
   ul.contact img {
   width: 7%;
   height: 7%;
@@ -396,9 +402,6 @@ ul.Online-Social-Media {
 
 @media screen and (min-width: 45em) {
 
-  ul#navigation {
-    width: 30%;
-  }
   #content {
     width: 75%;
   }
@@ -418,9 +421,8 @@ ul.Online-Social-Media {
   width: 5%;
   height: 5%;
   }
-  ul.Countries img {
-    width: 40%;
-    height: 40%;
+  ul.countries {
+    clear: none;
   }
   ul.contact img {
   width: 5%;
@@ -430,9 +432,6 @@ ul.Online-Social-Media {
 
 @media screen and (min-width: 70em) {
 
-  ul#navigation {
-    width: 20%;
-  }
   #content {
     width: 75%;
     max-width: 150em;
@@ -453,10 +452,6 @@ ul.Online-Social-Media {
   width: 3.5%;
   height: 3.5%;
   }
-  ul.Countries img {
-    width: 25%;
-    height: 25%;
-  }
   ul.contact img {
   width: 3.5%;
   height: 3.5%;
@@ -466,4 +461,4 @@ ul.Online-Social-Media {
 
 
 
-   
+

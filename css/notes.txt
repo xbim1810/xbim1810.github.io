@@ -1,0 +1,8 @@
+Random scraps:
+
+
+To resize images in a BASH-like shell:
+
+    for FOO in *.???; do convert $FOO -geometry 256x "${FOO%.JPG}_scaled-256.jpg" ; convert $FOO -geometry 960x "${FOO%.JPG}_scaled-960.jpg" ; done
+
+(Assumes that the free, open-source software package ImageMagick has been installed. See: http://www.imagemagick.org/ )
