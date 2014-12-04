@@ -44,10 +44,11 @@
             <p>My previour major is English language and literature,and my first full-time job is an English interpreter. The beauty of English syntax always attracts me to read more and write critically. Let's take a break to enjoy some of my workpieces, if you like.</p>
        </div>
      </section>
-   </div> 
-   <div id="footer">
-     <p>Copyright @ 2014 by Bing Xue (<a href="mailto:xbim1810@aliyun.com">Contact me</a>)</p>
-   </div>     
+
+    <div id="footer">
+      <p>Copyright @ 2014 by Bing Xue (<a href="mailto:xbim1810@aliyun.com">Contact me</a>)</p>
+    </div>
+   </div>      
   </body>
 </html>
     
